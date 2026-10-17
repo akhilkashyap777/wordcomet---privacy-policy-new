@@ -1,13 +1,607 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | WordComet</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for WordComet Interviews and mentorship services operated by Shyaps Neon.">
+  <title>WordComet Interviews | Privacy Policy</title>
+
+<style>
+/* =========================================
+   WORDCOMET PRIVACY POLICY
+   LIGHT THEME
+========================================= */
+
+:root {
+    color-scheme: light;
+    --ink: #172b4d;
+    --muted: #667085;
+    --accent: #2563eb;
+    --line: #e4eaf2;
+    --surface: #ffffff;
+    --bg: #f8fafc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #1d2939;
+    line-height: 1.7;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
+}
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.wrap {
+    width: min(1120px, 90%);
+    max-width: none;
+    margin: 0 auto;
+}
+
+/* =========================================
+   HEADER / HERO
+========================================= */
+
+body > header {
+    padding: 100px 0 90px;
+    color: var(--ink);
+
+    border-bottom: 1px solid #edf2f7;
+
+    background:
+        radial-gradient(
+            circle at 80% 20%,
+            rgba(37, 99, 235, 0.09),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #f8fbff 0%,
+            #ffffff 65%
+        );
+}
+
+body > header .wrap > a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 1.55rem;
+    font-weight: 700;
+    color: #172b4d;
+}
+
+body > header h1 {
+    max-width: 900px;
+    margin: 32px 0 20px;
+
+    font-size: clamp(2.6rem, 6vw, 4.6rem);
+    line-height: 1.08;
+    letter-spacing: -2px;
+
+    color: #172b4d;
+}
+
+body > header p {
+    margin: 0;
+    font-size: 1.12rem;
+    color: #667085;
+}
+
+/* =========================================
+   MAIN PRIVACY CONTENT
+========================================= */
+
+main {
+    width: min(900px, 90%);
+    max-width: none;
+
+    margin: 58px auto 90px;
+    padding: 0;
+
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* =========================================
+   POLICY INFORMATION
+========================================= */
+
+.meta {
+    padding: 28px 32px;
+    margin-bottom: 28px;
+
+    background: #f8fafc;
+    border: 1px solid #e4eaf2;
+    border-left: 4px solid #2563eb;
+    border-radius: 14px;
+}
+
+.meta p {
+    margin: 5px 0;
+    color: #475467;
+}
+
+.meta strong {
+    color: #172b4d;
+}
+
+/* =========================================
+   IMPORTANT NOTICE
+========================================= */
+
+.notice {
+    padding: 22px 26px;
+    margin: 0 0 40px;
+
+    background: #fffaf0;
+    border: 1px solid #f1dfb8;
+    border-left: 4px solid #c58b2b;
+    border-radius: 12px;
+
+    color: #77561f;
+}
+
+.notice strong {
+    display: block;
+    margin-bottom: 8px;
+    color: #77561f;
+}
+
+/* =========================================
+   PRIVACY POLICY SECTIONS
+========================================= */
+
+main section {
+    padding: 35px 36px;
+    margin: 0 0 22px;
+
+    background: #ffffff;
+    border: 1px solid #e4eaf2;
+    border-radius: 16px;
+
+    box-shadow:
+        0 6px 24px rgba(30, 70, 120, 0.035);
+}
+
+/* =========================================
+   SECTION HEADINGS
+========================================= */
+
+main section h2 {
+    margin: 0 0 22px;
+    padding: 0 0 15px;
+
+    border-bottom: 2px solid #e8f1ff;
+
+    font-size: clamp(1.35rem, 2.5vw, 1.7rem);
+    line-height: 1.3;
+    letter-spacing: -0.4px;
+
+    color: #172b4d;
+}
+
+main section h3 {
+    margin: 27px 0 10px;
+
+    font-size: 1.1rem;
+    font-weight: 700;
+
+    color: #183153;
+}
+
+/* =========================================
+   PARAGRAPHS
+========================================= */
+
+main section p {
+    margin: 0 0 16px;
+
+    font-size: 1.02rem;
+    line-height: 1.85;
+
+    color: #536477;
+}
+
+main section p:last-child {
+    margin-bottom: 0;
+}
+
+/* =========================================
+   LISTS
+========================================= */
+
+main section ul,
+main section ol {
+    margin: 12px 0 22px;
+    padding-left: 26px;
+
+    color: #536477;
+}
+
+main section li {
+    margin: 9px 0;
+    padding-left: 5px;
+
+    line-height: 1.75;
+}
+
+main section li::marker {
+    color: #2563eb;
+}
+
+main section strong {
+    color: #172b4d;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+body > footer {
+    padding: 45px 20px;
+
+    background: #0f1f38;
+    color: #c4cede;
+
+    text-align: center;
+    font-size: 0.92rem;
+}
+
+body > footer a {
+    color: #a9c5ff;
+}
+
+body > footer a:hover {
+    color: #ffffff;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 900px) {
+
+    body > header {
+        padding: 80px 0 75px;
+    }
+
+    main {
+        margin: 40px auto 70px;
+    }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 650px) {
+
+    body > header {
+        padding: 65px 0 60px;
+    }
+
+    body > header h1 {
+        font-size: 2.5rem;
+        letter-spacing: -1.5px;
+        margin: 25px 0 16px;
+    }
+
+    body > header p {
+        font-size: 1rem;
+    }
+
+    main {
+        width: 92%;
+        margin: 26px auto 55px;
+    }
+
+    main section {
+        padding: 25px 22px;
+        border-radius: 13px;
+        margin-bottom: 16px;
+    }
+
+    .meta {
+        padding: 22px 20px;
+    }
+
+    .notice {
+        padding: 18px 20px;
+    }
+
+    main section p {
+        font-size: 1rem;
+    }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 400px) {
+
+    body > header h1 {
+        font-size: 2.15rem;
+    }
+
+    main section {
+        padding: 22px 18px;
+    }
+}
+
+/* =========================================
+   PRIVACY POLICY - LANDING PAGE THEME
+========================================= */
+
+/* White navigation/header background */
+body > header {
+    background: #ffffff;
+    border-bottom: 1px solid #e9eef5;
+    padding: 28px 0 55px;
+}
+
+/* WordComet logo */
+body > header .privacy-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: #172b4d;
+    text-decoration: none;
+}
+
+/* Blue comet background */
+body > header .privacy-logo-icon {
+    width: 42px;
+    height: 42px;
+
+    display: grid;
+    place-items: center;
+
+    background: #1d5bd1;
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.18);
+}
+
+/* Logo text */
+body > header .privacy-logo-text {
+    color: #172b4d;
+    font-family: "Syne", sans-serif;
+    font-size: 1.35rem;
+    font-weight: 800;
+}
+
+body > header .privacy-logo-text span {
+    color: #2563eb;
+}
+
+/* Privacy Policy title */
+body > header h1 {
+    color: #172b4d;
+    margin-top: 45px;
+}
+
+/* Subtitle */
+body > header p {
+    color: #667085;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+    body > header {
+        padding: 22px 0 40px;
+    }
+
+    body > header .privacy-logo-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    body > header .privacy-logo-text {
+        font-size: 1.15rem;
+    }
+
+    body > header h1 {
+        margin-top: 32px;
+    }
+}
+
+</style>
 </head>
 <body>
-    <h1>WordComet Privacy Policy</h1>
-    <p>Our complete Privacy Policy will be published here shortly.</p>
-    <p>Contact: <a href="mailto:akhil@shyaps.com">akhil@shyaps.com</a></p>
+<header><div class="wrap"><a href="https://wordcomet.shyapsneon.tech/"
+   class="privacy-logo">
+
+    <span class="privacy-logo-icon">☄️</span>
+
+    <span class="privacy-logo-text">
+        Word<span>Comet</span>
+    </span>
+
+</a><h1>WordComet Interviews — Privacy Policy</h1><p>Mentorship and mock interview services</p></div></header>
+<main>
+  <div class="meta">
+    <p><strong>Operated by:</strong> Shyaps Neon</p>
+    <p><strong>Website:</strong> <a href="https://wordcomet.shyapsneon.tech/">https://wordcomet.shyapsneon.tech</a></p>
+    <p><strong>Effective date:</strong> To be confirmed upon publication</p>
+    <p><strong>Last updated:</strong> 17 October 2026</p>
+    <p><strong>Privacy contact:</strong> <a href="mailto:akhil@shyapsneon.tech">akhil@shyapsneon.tech</a></p>
+  </div>
+  <div class="notice"><strong>Pre-publication verification required</strong>This draft includes intended practices that must be verified or implemented before publication, especially age enforcement, administrator access and notice, retention automation, provider processing locations, backups, and security incident handling. Remove this notice only after those checks are complete.</div>
+  <section><h2>1. Introduction</h2>
+    <p>Welcome to WordComet, a platform operated by Shyaps Neon, India.</p>
+    <p>WordComet provides vocabulary learning, educational activities, professional mentorship, and online mock interview services. This Privacy Policy specifically addresses the collection, processing, storage, use, and protection of personal information associated with WordComet's interview and mentorship services.</p>
+    <p>We respect the privacy of our users, including mentors and mentees, and are committed to handling their personal information responsibly.</p>
+    <p>By using WordComet Interviews, users acknowledge this Privacy Policy. Where consent is required by applicable law, WordComet will seek it through an appropriate consent mechanism.</p>
+  </section>
+  <section><h2>2. Eligibility and Age Restrictions</h2>
+    <p>WordComet Interviews is intended for individuals who are at least 18 years old.</p>
+    <p>Individuals below the age of 18 are not permitted to register for or participate in WordComet interview and mentorship services.</p>
+    <p>If we become aware that personal information has been collected from an individual below the permitted age, we will take appropriate steps to restrict the account and delete the information, subject to applicable legal requirements.</p>
+  </section>
+  <section><h2>3. Information We Collect</h2>
+    <h3>3.1 Account Information</h3><p>When users register or sign in, WordComet may collect:</p>
+    <ul><li>Full name or display name</li><li>Email address</li><li>Google account identifier associated with Firebase Authentication</li><li>Account role, such as mentor or mentee</li></ul>
+    <p>This information is used to authenticate users, manage accounts, provide access to services, and support platform operations.</p>
+    <h3>3.2 Mentor Information</h3><p>Mentors may provide professional information, including:</p>
+    <ul><li>Professional designation or job title</li><li>Industry or interview domain</li><li>Years of professional experience</li><li>Résumé or curriculum vitae</li></ul>
+    <p>This information helps WordComet manage mentor participation, evaluate professional backgrounds, and organize relevant interview opportunities.</p>
+    <p>Only limited mentor profile information is made visible to mentees. WordComet does not automatically disclose a mentor's complete professional background or uploaded résumé to other users.</p>
+    <h3>3.3 Mentee Information</h3><p>Mentees may provide:</p>
+    <ul><li>Résumé or curriculum vitae</li><li>Preferred interview domain</li><li>Interview booking dates and times</li></ul>
+    <p>This information is used to arrange interviews and help mentors prepare relevant questions and feedback.</p>
+    <h3>3.4 Interview and Communication Information</h3><p>During online interviews, WordComet may process:</p>
+    <ul><li>Live camera and microphone streams</li><li>Screen-sharing content</li><li>Chat messages exchanged between participants</li><li>Interview feedback and ratings</li><li>Information necessary to facilitate interview participation</li></ul>
+    <p>Live audio, video, and screen-sharing content are processed to deliver the interview experience.</p>
+    <p>WordComet does not intentionally record or store video interviews through its platform.</p>
+    <p>Interview chat messages are intended for communication during sessions and are not retained by WordComet after the session.</p>
+    <h3>3.5 Technical and Usage Information</h3><p>WordComet may collect:</p>
+    <ul><li>IP addresses</li><li>Login timestamps</li><li>Application usage logs</li><li>Technical information required for authentication and service functionality</li></ul>
+    <p>This information is used for troubleshooting, platform maintenance, security, and operational purposes.</p>
+  </section>
+  <section><h2>4. How We Use Personal Information</h2><p>WordComet processes personal information for the following purposes:</p>
+    <ol><li>Creating, authenticating, and maintaining user accounts.</li><li>Managing mentor and mentee profiles.</li><li>Facilitating mentor discovery and interview bookings.</li><li>Enabling live video, audio, chat, and screen-sharing functionality.</li><li>Allowing mentors to review résumés for booked interviews.</li><li>Managing interview feedback and ratings.</li><li>Providing technical support and maintaining platform security.</li><li>Moderating interview sessions and investigating reported issues.</li><li>Complying with applicable legal obligations.</li></ol>
+    <p>WordComet does not sell personal information or share it with third parties for their independent advertising or marketing purposes.</p>
+  </section>
+  <section><h2>5. Online Interviews and Video Privacy</h2>
+    <p>WordComet uses Zoom Video SDK to facilitate live online interviews.</p>
+    <p>During interviews, participants may choose whether to enable their cameras or microphones, subject to the technical requirements of the session.</p>
+    <p>Live audio, video, and screen-sharing content may be processed by the video service provider as necessary to deliver the session.</p>
+    <h3>5.1 Interview Recordings</h3><p>WordComet does not provide platform-managed interview recording or intentionally retain interview recordings.</p>
+    <p>Participants are permitted under WordComet's current platform rules to make their own recordings using external recording tools.</p>
+    <p>Recordings independently created by participants are not automatically collected, stored, managed, or controlled by WordComet.</p>
+    <p>Participants are responsible for complying with applicable laws, including any requirements relating to consent, privacy, confidentiality, and the use or disclosure of recorded information.</p>
+    <p>WordComet's permission to record does not remove these legal responsibilities.</p>
+    <h3>5.2 Screen Sharing</h3><p>Participants may voluntarily share their screens during interviews.</p>
+    <p>Information displayed during screen sharing may be visible to other participants in the session.</p>
+    <p>Users should avoid displaying passwords, financial information, confidential documents, or unrelated sensitive personal information.</p>
+    <h3>5.3 Interview Chat</h3><p>WordComet provides chat functionality for communication between mentors and mentees during interviews.</p>
+    <p>WordComet does not retain interview chat messages after the session.</p>
+    <p>Participants should avoid sharing sensitive information unnecessarily through interview chat.</p>
+  </section>
+  <section><h2>6. Administrator Access and Interview Moderation</h2>
+    <p>Authorized WordComet administrators may access live interview sessions for platform moderation, quality checks, technical support, and safety-related purposes.</p>
+    <p>Such access is intended to support the appropriate operation of WordComet Interviews.</p>
+    <p>Participants should be informed appropriately when authorized administrators access live sessions.</p>
+    <p>Administrator access should be restricted to authorized personnel and used only for legitimate platform purposes.</p>
+    <p>WordComet does not use administrator access to create or store routine interview recordings.</p>
+  </section>
+  <section><h2>7. Résumé Collection, Storage, and Access</h2>
+    <p>WordComet allows users to upload résumés for mentorship and interview-related purposes.</p>
+    <p>Uploaded résumés are stored using private Cloudflare R2 object storage.</p>
+    <p>A mentee's uploaded résumé may be accessed by:</p>
+    <ul><li>The mentor associated with the relevant interview booking.</li><li>Authorized WordComet administrators where necessary for platform administration or support.</li></ul>
+    <p>Mentors are permitted to use mentee résumés only to prepare for and conduct the relevant interview.</p>
+    <p>Mentors must not disclose, distribute, publish, or use mentee résumés for unrelated purposes without appropriate authorization.</p>
+    <p>Résumés may be retained while the associated account remains active, subject to valid deletion requests and applicable legal requirements.</p>
+  </section>
+  <section><h2>8. Third-Party Service Providers</h2><p>WordComet uses external technology providers to operate its services.</p>
+    <p><strong>Firebase Authentication:</strong> Used for Google-based user authentication and account identification.</p>
+    <p><strong>Cloudflare R2:</strong> Used for storing uploaded résumé documents.</p>
+    <p><strong>Zoom Video SDK:</strong> Used to facilitate live video, audio, and screen-sharing functionality.</p>
+    <p><strong>Hostinger / VPS Hosting:</strong> Used for hosting WordComet's backend infrastructure and associated services.</p>
+    <p><strong>PostgreSQL:</strong> Used as the database system for storing and managing platform information.</p>
+    <p>These technologies may process information necessary to perform their respective functions.</p>
+    <p>WordComet does not authorize these services to use personal information for unrelated independent marketing on its behalf.</p>
+    <p>Data processing locations and international transfers depend on the actual configurations and practices of the relevant providers. WordComet will handle international data processing in accordance with applicable legal requirements.</p>
+  </section>
+  <section><h2>9. Data Storage and Security</h2><p>WordComet uses technical and organizational measures intended to protect personal information.</p>
+    <ul><li>HTTPS connections for website and API communication.</li><li>Firebase-based authentication.</li><li>Role-based access controls.</li><li>Private résumé storage with controlled access.</li></ul>
+    <p>Access to personal information is intended to be limited according to user roles and operational responsibilities.</p>
+    <p>Although WordComet takes measures to protect personal information, no online platform or electronic storage system can guarantee absolute security.</p>
+    <p>Users are encouraged to protect their accounts and report suspected unauthorized access.</p>
+  </section>
+  <section><h2>10. Data Retention</h2><p>WordComet retains different categories of personal information according to their purposes.</p>
+    <h3>10.1 Account Information</h3><p>Account information is generally retained while the user maintains an active WordComet account, unless earlier deletion is requested or retention is otherwise required by law.</p>
+    <h3>10.2 Uploaded Résumés</h3><p>Uploaded résumés may be retained until the associated account is deleted or the user submits a valid deletion request, subject to applicable legal requirements.</p>
+    <h3>10.3 Interview Bookings and Feedback</h3><p>Interview booking records and associated feedback are intended to be retained for up to one year after the relevant interview.</p>
+    <p>Information may be retained longer where necessary to comply with legal obligations, resolve disputes, or address legitimate security-related requirements.</p>
+    <h3>10.4 Interview Media and Chat</h3><p>WordComet does not intentionally store live interview recordings or retain interview chat messages after sessions.</p>
+    <h3>10.5 Technical Logs</h3><p>Technical and usage logs may be retained for operational, troubleshooting, and security purposes for periods appropriate to those purposes and applicable legal requirements.</p>
+  </section>
+  <section><h2>11. Account Deletion and Privacy Requests</h2>
+    <p>Users may request access to, correction of, or deletion of their personal information.</p>
+    <p>Requests can be submitted by email to: <a href="mailto:akhil@shyapsneon.tech">akhil@shyapsneon.tech</a>.</p>
+    <p>Users should submit requests using the email address associated with their WordComet account wherever possible.</p>
+    <p>WordComet may take reasonable steps to verify the identity of the requester before disclosing, modifying, or deleting personal information.</p>
+    <p>Upon receiving a valid deletion request, WordComet will review the request and take appropriate action in accordance with applicable legal requirements.</p>
+    <p>Some information may need to be retained where legally required or necessary for permitted purposes.</p>
+  </section>
+  <section><h2>12. User Privacy Rights</h2><p>Subject to applicable law, users may request to:</p>
+    <ul><li>Access information about their personal data processed by WordComet.</li><li>Correct inaccurate or outdated personal information.</li><li>Request deletion of personal information.</li><li>Withdraw consent where processing depends on consent.</li></ul>
+    <p>Withdrawal of consent may affect the availability of features that require the relevant information.</p>
+    <p>Requests and privacy-related questions may be sent to <a href="mailto:akhil@shyapsneon.tech">akhil@shyapsneon.tech</a>.</p>
+  </section>
+  <section><h2>13. Cookies and Browser Storage</h2>
+    <p>WordComet uses essential cookies or browser storage technologies required for authentication, session management, and website functionality.</p>
+    <p>These technologies help maintain user sessions and enable essential platform features.</p>
+    <p>WordComet does not intentionally use advertising cookies or third-party marketing trackers for its interview services.</p>
+    <p>Browser settings may allow users to manage or remove stored information. Disabling essential storage may affect website functionality.</p>
+  </section>
+  <section><h2>14. Sharing of Personal Information</h2><p>WordComet may share limited personal information where necessary to operate the platform.</p>
+    <p>Examples include:</p><ul><li>Sharing relevant booking information between a mentor and mentee.</li><li>Providing a booked mentor with access to a mentee's uploaded résumé.</li><li>Processing authentication information through Firebase.</li><li>Processing live interview media through Zoom Video SDK.</li><li>Storing information through authorized infrastructure providers.</li><li>Disclosing information where required by applicable law.</li></ul>
+    <p>Users must not disclose another participant's personal information outside WordComet without appropriate authorization, unless disclosure is required by law.</p>
+    <p>WordComet does not sell users' personal information.</p>
+  </section>
+  <section><h2>15. Data Security Incidents</h2>
+    <p>WordComet recognizes the importance of protecting personal information against unauthorized access, disclosure, loss, and misuse.</p>
+    <p>Where a suspected personal data security incident occurs, WordComet will assess the circumstances and take appropriate steps consistent with applicable legal obligations.</p>
+    <p>Notifications to affected individuals or authorities will be made where required by applicable law.</p>
+  </section>
+  <section><h2>16. International Data Processing</h2>
+    <p>WordComet is operated from India and uses technology providers that may maintain infrastructure in multiple countries.</p>
+    <p>The location of processing may depend on service configuration, hosting arrangements, and provider operations.</p>
+    <p>Where personal information is processed outside India, WordComet will seek to comply with applicable Indian data protection requirements and any relevant restrictions on international data transfers.</p>
+  </section>
+  <section><h2>17. Privacy Complaints and Grievances</h2>
+    <p>Users who have concerns regarding the collection, use, storage, disclosure, or deletion of personal information may contact WordComet.</p>
+    <p><strong>Privacy Contact:</strong> Shyaps Neon<br><strong>Email:</strong> <a href="mailto:akhil@shyapsneon.tech">akhil@shyapsneon.tech</a></p>
+    <p>WordComet will review privacy-related complaints and respond in accordance with applicable legal requirements.</p>
+    <p>Users may also exercise any rights to approach competent data protection authorities that are available under applicable law.</p>
+  </section>
+  <section><h2>18. Changes to This Privacy Policy</h2>
+    <p>WordComet may update this Privacy Policy to reflect changes in platform functionality, operational practices, technology providers, or legal requirements.</p>
+    <p>Updated versions will be published on the WordComet website with a revised effective date.</p>
+    <p>Where material changes affect users' privacy, WordComet intends to notify registered users through email.</p>
+    <p>Continued use of the platform does not replace any consent that must be separately obtained under applicable law.</p>
+  </section>
+  <section><h2>19. Applicable Law</h2>
+    <p>This Privacy Policy is intended to operate in accordance with applicable laws of India, including relevant data protection and information technology legislation as those provisions become applicable.</p>
+    <p>Nothing in this Privacy Policy is intended to restrict statutory rights available to users under applicable law.</p>
+  </section>
+  <section><h2>20. Contact Information</h2>
+    <p>For privacy questions, data access requests, corrections, deletion requests, or complaints, please contact:</p>
+    <p><strong>Shyaps Neon — WordComet Interviews</strong><br>Website: <a href="https://wordcomet.shyapsneon.tech/">https://wordcomet.shyapsneon.tech</a><br>Email: <a href="mailto:akhil@shyapsneon.tech">akhil@shyapsneon.tech</a><br>Country: India</p>
+  </section>
+</main>
+<footer>© 2026 Shyaps Neon · WordComet Interviews</footer>
 </body>
 </html>
